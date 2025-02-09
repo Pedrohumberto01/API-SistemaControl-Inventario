@@ -42,12 +42,8 @@ Sigue estos pasos para configurar la base de datos:
 2. Navega a la carpeta `DB-SQLSERVER` en el repositorio clonado. Allí encontrarás los scripts necesarios para crear la base de datos y sus tablas.
 3. Ejecuta los scripts en el siguiente orden:
 
-   - `01-CrearBaseDeDatos.sql`: Este script crea la base de datos. Asegúrate de ejecutar esto primero.
-   - `02-CrearTablas.sql`: Este script crea las tablas necesarias.
-   - (Opcional) `03-InsertarDatosIniciales.sql`: Si quieres cargar datos iniciales para pruebas, ejecuta este script.
-
-   Una vez ejecutados los scripts, la base de datos estará lista para ser usada.
-
+   - `SQLQueryDb.sql`: Este script crea la base de datos. Asegúrate de ejecutar esto primero.
+   - `SQLQueryInsertDb.sql`: Este script carga datos iniciales para pruebas.
 ---
 
 ## 4. Configurar la cadena de conexión
