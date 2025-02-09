@@ -63,5 +63,5 @@ Actualiza la cadena de conexión en el archivo `appsettings.json` si es que se c
 
 Aquí hay una captura de pantalla de la API ejecutándose localmente:
 
-![Vista previa de la API](images/Swagger1)
-![Vista previa de la API](images/Swagger2)
+![Vista previa de la API](images/Swagger1.png)
+![Vista previa de la API](images/Swagger2.png)
