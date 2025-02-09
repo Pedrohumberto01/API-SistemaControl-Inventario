@@ -52,9 +52,16 @@ Actualiza la cadena de conexión en el archivo `appsettings.json` si es que se c
 
 ```json
 "ConnectionStrings": {
-  "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=SistemaControlInventario;Trusted_Connection=True;TrustServerCertificate=True;"
+        "CadenaSql": "Server=localhost\\SQLEXPRESS; Database=DBVENTA; Trusted_Connection=True; TrustServerCertificate=true;"
 }
 ```
 
 
 ### 5. Ejecuta el proyecto desde Visual Studio
+
+## 6. Vista previa de la API
+
+Aquí hay una captura de pantalla de la API ejecutándose localmente:
+
+![Vista previa de la API](images/Swagger1)
+![Vista previa de la API](images/Swagger2)
